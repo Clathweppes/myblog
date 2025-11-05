@@ -1,4 +1,16 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://clath.top/
+languageCode: zh-cn
+title: Clath's Blog
 theme: ["PaperMod"]
+enableEmoji: true # enable emoji support
+
+params:
+  ShowCodeCopyButtons: true
+  homeInfoParams:
+    Title: Hi there
+    Content: This is Clath's personal blog.
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/clathweppes"
+    
